@@ -5,26 +5,38 @@
 @layer base {
   :root {
     --color-primary: 4, 159, 161;
-    --color-secondary: 179, 243, 245;
+    --color-secondary: 231 247 248;
     --color-text: 66, 65, 65;
-    --color-bg: 219, 219, 221;
+    --color-bg: 255 255 255;
   }
 
   * {
-    @apply transition-colors duration-500 ease-in-out;
+    @apply transition-colors duration-200 ease-in-out;
   }
 }
 
 .light {
   --color-primary: 4, 159, 161;
-  --color-secondary: 179, 243, 245;
+  --color-secondary: 231 247 248;
   --color-text: 66, 65, 65;
-  --color-bg: 219, 219, 221;
+  --color-bg: 255 255 255;
 }
 
 .dark {
   --color-primary: 4, 159, 161;
-  --color-secondary: 179, 243, 245;
-  --color-text: 219, 219, 221;
-  --color-bg: 66, 65, 65;
+  --color-secondary: 66, 65, 65;
+  --color-text: 238 238 241;
+  --color-bg: 45, 47, 52;
+}
+
+.status-online {
+  @apply text-green-800 bg-green-200;
+}
+
+.status-away {
+  @apply text-yellow-800 bg-yellow-200;
+}
+
+.status-offline {
+  @apply text-gray-800 bg-gray-200;
 }

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Nermeen Ibrahim",
+    "email": "nermeen.ibrahim@example.com",
+    "title": "Front-end Developer",
+    "status": "Online"
+  },
+  {
+    "id": 2,
+    "name": "Leonard Krasner",
+    "email": "leonard.krasner@example.com",
+    "title": "Designer",
+    "status": "Away"
+  },
+  {
+    "id": 3,
+    "name": "Jenny Wilson",
+    "email": "jenny.wilson@example.com",
+    "title": "Director of Product",
+    "status": "Offline"
+  }
+]
